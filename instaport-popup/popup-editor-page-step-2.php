@@ -84,6 +84,25 @@
 
 	}
 
+	.pop-up-form input[type=text],.pop-up-form input[type=submit]{
+		background: none;
+		border: 1px solid #fff;
+		color: #fff;
+		padding: 20px;
+	}
+	.pop-up-form input[type=submit]{
+		font-size: 15px;
+	    font-weight: 600;
+	}
+	.pop-up-form input[type=submit]:hover{
+		color: #fff;
+	}
+	.getresponse input[type=text]{
+		width: 160px;
+	}
+	.getresponse{
+		margin-left: 20px; 
+	}
 	</style>
 
 
@@ -107,6 +126,49 @@
 					<h2>Popup Preview</h2>
 
 						<div class="col-md-6 fixme">
+
+	    				<div class="aweber box pop-up-form col-sm-9 col-sm-offset-1" style="position: absolute; z-index: 99; margin-top: 45px; border: 1px solid #FFF; background: rgba(0,0,0,0.7); padding: 25px;">
+	    					<form class="form-inline col-md-offset-1">
+	    					<p class="text-center" style="font-size: 24px; color: #fff;">MAKE IT<br />
+    						<strong>CLEAR</strong><br />
+    						&<br />
+    						<strong>SIMPLE</strong></p>
+
+	    					  <div class="col-sm-8 col-sm-offset-2">
+	    					    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Your First Name">
+	    					  </div>
+	    					  <div class="clearfix" style="margin:10px;"></div>
+	    					  <div class="col-sm-8 col-sm-offset-2">
+	    					    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Your Email">
+	    					  </div>
+	    					  <div class="clearfix" style="margin:10px;"></div>
+	    					  <div class="col-sm-10 col-sm-offset-1">
+	    					  	<input type="submit" class="btn btn-lg btn-block custom-btn" id="popup_submitval_2" value="I WANT 2 FREE PILLS OF LIMITLESS FORTE">
+	    					  </div>	
+	    					</form>
+	    				</div>
+
+	    				<div class="getresponse box " style="position: absolute; z-index: 99; margin-top: 45px; border: 5px solid #ddd; background: #fff; width: 564px;">
+	    					<div>
+	    						<img src="<?php echo plugins_url('instaport-popup/assets/images/paidversion.png') ?>" alt="example image" style="width:220px;" class="pull-left"/>
+	    						<h2>Lorem Ipsum is simply dummy text of the printing</h2>
+	    						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+	    							when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+	    					</div>
+	    					<div class="col-sm-12" style="background: #ddd; padding: 20px 40px;">
+		    					<form class="form-inline">
+									  <div class="form-group">
+									    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+									    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Email">
+									  </div>
+									  <div class="form-group">
+									    <label class="sr-only" for="exampleInputPassword3">Password</label>
+									    <input type="text" class="form-control" id="exampleInputPassword3" placeholder="Password">
+									  </div>
+									  <button type="submit" class="btn btn-success">DOWNLOAD NOW</button>
+		    					</form>
+	    					</div>
+	    				</div>
 
 						<a href="themes.php?page=instaport_pop"type="button" class="btn btn-danger"><i class="fa fa-arrow-left"></i> Back to Popup Templates</a>
 
@@ -141,41 +203,6 @@
 
 			    					</div> -->
 
-
-
-			    					<form class="form-inline col-md-offset-1 aweber box" style="margin-top:35px;">
-
-			    					  <div class="form-group">
-
-			    					    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-
-			    					    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
-
-			    					    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Enter Name">
-
-			    					  </div>
-
-			    					  <input type="submit" class="btn btn-default" id="popup_submitval_2" value="Subscribe">
-
-			    					</form>
-
-
-
-			    					<form class="form-inline col-md-offset-1 getresponse box" style="margin-top:35px;">
-
-			    					  <div class="form-group">
-
-			    					    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-
-			    					    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
-
-			    					    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Enter Name">
-
-			    					  </div>
-
-			    					  <input type="submit" class="btn btn-default" id="popup_submitval_2" value="Subscribe">
-
-			    					</form>
 
 
 
